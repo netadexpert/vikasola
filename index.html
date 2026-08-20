@@ -1,291 +1,806 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2867
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-\f0\fs24 \cf0 <!doctype html>\
-<html lang="en">\
-<head>\
-  <meta charset="utf-8" />\
-  <meta name="viewport" content="width=device-width, initial-scale=1" />\
-  <title>Digital Ads Expert \'97 Official Website</title>\
-  <meta name="description" content="Digital Ads Expert \'97 Meta Ads specialist. Get policy-safe ads, landing pages, Telegram growth systems & complete marketing setup." />\
-\
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">\
-  <style>\
-    :root\{\
-      --bg:#0f172a;\
-      --surface:#0b1220;\
-      --card:#0f172a;\
-      --muted:#9ca3af;\
-      --text:#e6eef8;\
-      --accent:#06b6d4;\
-      --accent2:#0ea5a4;\
-      --glass: rgba(255,255,255,0.04);\
-      --radius:14px;\
-    \}\
-    *\{box-sizing:border-box\}\
-    html,body\{height:100%\}\
-    body\{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:linear-gradient(180deg,#071024 0%, #081223 40%, #071733 100%);color:var(--text);-webkit-font-smoothing:antialiased\}\
-\
-    header\{position:sticky;top:12px;z-index:60;padding:18px 26px;display:flex;align-items:center;justify-content:space-between;max-width:1150px;margin:0 auto\}\
-    .brand\{display:flex;align-items:center;gap:12px\}\
-    .brand img\{height:46px;border-radius:8px;box-shadow:0 6px 20px rgba(4,10,18,0.6)\}\
-    .brand-title\{font-weight:700;font-size:18px;color:var(--text)\}\
-\
-    nav\{display:flex;gap:14px;align-items:center\}\
-    nav a\{color:var(--muted);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:10px\}\
-    nav a:hover\{color:var(--text);background:linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02))\}\
-\
-    .container\{max-width:1150px;margin:28px auto;padding:0 20px\}\
-\
-    .hero\{display:flex;gap:28px;align-items:center;padding:46px;background:linear-gradient(135deg, rgba(14,165,164,0.06), rgba(6,182,212,0.03));border-radius:18px;box-shadow:0 12px 40px rgba(2,6,23,0.6)\}\
-    .hero-left\{flex:1\}\
-    .lead\{font-size:34px;line-height:1.05;margin:0 0 12px;font-weight:800\}\
-    .sub\{color:var(--muted);margin:0 0 18px\}\
-    .cta\{display:flex;gap:12px\}\
-    .btn\{background:linear-gradient(90deg,var(--accent2),var(--accent));color:#042028;padding:12px 20px;border-radius:12px;font-weight:700;text-decoration:none;box-shadow:0 8px 30px rgba(6,182,212,0.12)\}\
-    .btn.ghost\{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,0.06)\}\
-\
-    .hero-right\{width:420px;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));padding:18px;border-radius:12px\}\
-    .stats\{display:flex;gap:10px;justify-content:space-between\}\
-    .stat\{flex:1;text-align:center;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)\}\
-    .stat .num\{font-weight:800;font-size:18px\}\
-    .stat .label\{color:var(--muted);font-size:13px\}\
-\
-    .services\{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px\}\
-    .service\{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02);transition:transform .22s ease, box-shadow .22s ease\}\
-    .service:hover\{transform:translateY(-8px);box-shadow:0 20px 40px rgba(2,6,23,0.6)\}\
-    .service h4\{margin:0 0 8px;color:var(--accent2)\}\
-    .service p\{margin:0;color:var(--muted);font-size:14px\}\
-\
-    .about\{display:flex;gap:20px;align-items:center;margin-top:28px\}\
-    .about .image\{width:340px;height:220px;border-radius:12px;background:linear-gradient(135deg,var(--accent2),var(--accent));display:flex;align-items:center;justify-content:center;color:#042028;font-weight:800;font-size:36px;box-shadow:0 12px 40px rgba(6,182,212,0.08)\}\
-    .about .text\{flex:1;color:var(--muted)\}\
-\
-    .contact-grid\{display:grid;grid-template-columns:1fr 340px;gap:18px;margin-top:28px\}\
-    .card\{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)\}\
-    .card h3\{margin:0 0 8px;color:var(--accent)\}\
-    .card p\{margin:0;color:var(--muted)\}\
-\
-    footer\{text-align:center;padding:30px;margin-top:36px;color:var(--muted)\}\
-\
-    @media (max-width:940px)\{\
-      .hero\{flex-direction:column\}\
-      .hero-right\{width:100%\}\
-      .about\{flex-direction:column\}\
-      .contact-grid\{grid-template-columns:1fr\}\
-    \}\
-  </style>\
-</head>\
-<body>\
-\
-<header>\
-  <div class="brand">\
-    <img src="https://digitaladsexpert.site/wp-content/uploads/2025/10/ChatGPT-Image-Oct-14-2025-at-12_09_19-PM.png" alt="Logo">\
-    <div class="brand-title">Digital Ads Expert</div>\
-  </div>\
-  <nav>\
-    <a href="#services">Services</a>\
-    <a href="#about">About</a>\
-    <a href="#contact">Contact</a>\
-    <a href="legal.html">Legal</a>\
-  </nav>\
-</header>\
-\
-<main class="container">\
-  <section class="hero">\
-    <div class="hero-left">\
-      <div class="lead">Scale fast \'97 but safely. Policy-first Meta Ads for trading & digital products.</div>\
-      <p class="sub">Compliant ad strategies, high-converting landing pages, and Telegram growth funnels built to deliver predictable client acquisition without platform risk.</p>\
-      <div class="cta">\
-        <a class="btn" href="#contact">Book a Strategy Call</a>\
-        <a class="btn ghost" href="#services">See Services</a>\
-      </div>\
-    </div>\
-\
-    <div class="hero-right">\
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">\
-        <div style="font-weight:700">Trusted Results</div>\
-        <div style="color:var(--muted);font-size:13px">Trusted by creators & agencies</div>\
-      </div>\
-      <div class="stats">\
-        <div class="stat"><div class="num">1200+</div><div class="label">Clients</div></div>\
-        <div class="stat"><div class="num">95%</div><div class="label">Ad Approval Rate</div></div>\
-        <div class="stat"><div class="num">\uc0\u8377 1.2M+</div><div class="label">Ad Spend Managed</div></div>\
-      </div>\
-    </div>\
-  </section>\
-\
-  <section id="services">\
-    <h2 style="margin-top:28px">Services we offer</h2>\
-    <div class="services">\
-      <div class="service card">\
-        <h4>Meta Ads Setup</h4>\
-        <p>Full ad account engineering \'97 campaign setup, pixel funnels, creatives and anti-rejection playbook.</p>\
-      </div>\
-\
-      <div class="service card">\
-        <h4>Landing Pages</h4>\
-        <p>Conversion-first pages with policy-compliant copy that convert Telegram visitors into paid members.</p>\
-      </div>\
-\
-      <div class="service card">\
-        <h4>Telegram Growth</h4>\
-        <p>Audience funnels, bot automation, and member quality strategies to build high-LTV communities.</p>\
-      </div>\
-\
-      <div class="service card">\
-        <h4>Payment & SOP</h4>\
-        <p>Secure payment flow setups and SOPs to reduce bank freezes and fraud exposure.</p>\
-      </div>\
-\
-      <div class="service card">\
-        <h4>Consulting & Training</h4>\
-        <p>Hands-on training and SOP creation for teams and agencies to scale reliably.</p>\
-      </div>\
-    </div>\
-  </section>\
-\
-  <section id="about">\
-    <h2 style="margin-top:28px">About</h2>\
-    <div class="about">\
-      <div class="text">\
-        <p style="font-size:15px;line-height:1.7;color:var(--muted)">\
-          Digital Ads Expert is a performance-driven marketing studio focused on growth systems for <strong>trading educators, Telegram communities, and digital product creators</strong>.\
-          <br><br>\
-          We specialise in <strong>policy-safe Meta Ads</strong> backed by deep niche experience. Most trading creators struggle with ad rejections, unstable funnels, fake clicks, and low-quality leads \'97 we solve all of this with a <strong>policy\uc0\u8209 first setup</strong> that keeps accounts safe while scaling.\
-          <br><br>\
-          Our approach blends:\
-        </p>\
-        <ul style="margin-top:10px;color:var(--muted);line-height:1.7;font-size:15px">\
-          <li><strong>Ad engineering</strong> \'97 structure, targeting, pixel, & anti\uc0\u8209 rejection systems</li>\
-          <li><strong>Conversion-first landing pages</strong> \'97 fast, modern & compliant UI</li>\
-          <li><strong>Telegram growth funnels</strong> \'97 high-quality member acquisition</li>\
-          <li><strong>Secure payment setups</strong> \'97 SOPs to avoid bank & platform risk</li>\
-        </ul>\
-        <p style="margin-top:14px;font-size:15px;line-height:1.7;color:var(--muted)">\
-          With <strong>1200+ client campaigns</strong> executed, we know exactly what works in the trading niche \'97 and what gets rejected. Every system we deploy is built to be <strong>stable, scalable, and safe</strong>.\
-        </p>\
-      </div>\
-      <div class="image" style="overflow:hidden;position:relative">\
-  <!-- Replace the URL below with your image link -->\
-  <img src="https://via.placeholder.com/340x220?text=Your+Image+Here" alt="About Image" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">\
-</div>\
-    </div>\
-  </section>\
-\
-  <!-- Credibility Bar -->\
-  <section id="credibility" style="margin-top:40px;text-align:center">\
-    <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;background:rgba(255,255,255,0.02);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">\
-      <div style="color:var(--muted);font-size:14px">\uc0\u10004  1200+ Happy Clients</div>\
-      <div style="color:var(--muted);font-size:14px">\uc0\u10004  95% Ad Approval Rate</div>\
-      <div style="color:var(--muted);font-size:14px">\uc0\u10004  Trading Niche Specialists</div>\
-      <div style="color:var(--muted);font-size:14px">\uc0\u10004  Proven Telegram Funnels</div>\
-    </div>\
-  </section>\
-\
-  <!-- Why Choose Us Section -->\
-  <section id="why-us" style="margin-top:40px">\
-    <h2>Why Choose Us</h2>\
-    <div class="services">\
-      <div class="service card">\
-        <h4>Policy-Safe Systems</h4>\
-        <p>Everything we build is designed to avoid rejections and keep your ad accounts safe.</p>\
-      </div>\
-      <div class="service card">\
-        <h4>Trading Niche Expertise</h4>\
-        <p>We understand algorithms, compliance rules, and funnel psychology for the stock market niche.</p>\
-      </div>\
-      <div class="service card">\
-        <h4>High-Conversion Design</h4>\
-        <p>Optimized landing pages and funnels that convert cold traffic into high-quality members.</p>\
-      </div>\
-      <div class="service card">\
-        <h4>End-to-End Setup</h4>\
-        <p>From ads to funnels to payment flows \'97 everything handled in one seamless system.</p>\
-      </div>\
-    </div>\
-  </section>\
-\
-  <!-- Testimonials Section -->\
-  <section id="testimonials" style="margin-top:40px">\
-    <h2>What Clients Say</h2>\
-    <div class="services">\
-      <div class="service card">\
-        <p>"Best agency for Telegram growth. My channel gained premium members within days."</p>\
-        <p style="margin-top:8px;color:var(--accent2);font-weight:700">\'97 Rahul, Trading Mentor</p>\
-      </div>\
-      <div class="service card">\
-        <p>"Their Meta Ads setup finally stopped my ad rejections. Smooth scaling now."</p>\
-        <p style="margin-top:8px;color:var(--accent2);font-weight:700">\'97 Karan, Stock Market Coach</p>\
-      </div>\
-      <div class="service card">\
-        <p>"Landing pages are clean, fast and convert extremely well. Amazing work."</p>\
-        <p style="margin-top:8px;color:var(--accent2);font-weight:700">\'97 Aditi, Digital Educator</p>\
-      </div>\
-    </div>\
-  </section>\
-\
-<section id="contact">\
-    <h2 style="margin-top:28px">Contact</h2>\
-    <div class="contact-grid">\
-      <div class="card" style="background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)">\
-        <h3>Get in touch</h3>\
-        <p class="small">Interested in a strategy call or a custom proposal? Choose any method below \'97 we reply within 24\'9648 hours.</p>\
-\
-        <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px">\
-          <a href="mailto:digitaladsexpertofficial@gmail.com" class="btn" style="text-align:center">\uc0\u55357 \u56551  Email Us</a>\
-\
-          <a href="https://t.me/DigitalAdsExpert" target="_blank" class="btn" style="text-align:center;background:linear-gradient(90deg,#2AABEE,#229ED9);color:white">\uc0\u55357 \u56492  Message on Telegram</a>\
-\
-          <a href="https://wa.me/918585858585" target="_blank" class="btn" style="text-align:center;background:linear-gradient(90deg,#25D366,#128C7E);color:white">\uc0\u55357 \u56561  Chat on WhatsApp</a>\
-        </div>\
-      </div>\
-      </div>\
-\
-      <aside class="card" style="background:linear-gradient(135deg, rgba(6,182,212,0.06), rgba(14,165,164,0.04));border:1px solid rgba(6,182,212,0.12);box-shadow:0 12px 30px rgba(6,182,212,0.08);backdrop-filter:blur(4px)">\
-        <h3 style="color:var(--accent);font-weight:800;letter-spacing:0.3px">Brand Contact</h3>\
-\
-        <p class="small" style="margin-top:10px">\
-          <span style="display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--text)">\
-            \uc0\u55357 \u56551  Email\
-          </span><br>\
-          <a href="mailto:digitaladsexpertofficial@gmail.com" style="color:var(--accent);font-weight:600;text-decoration:none">digitaladsexpertofficial@gmail.com</a>\
-        </p>\
-\
-        <p class="small" style="margin-top:14px">\
-          <span style="display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--text)">\
-            \uc0\u55357 \u56492  Telegram\
-          </span><br>\
-          <a href="#" style="color:var(--accent);font-weight:600;text-decoration:none">@DigitalAdsExpert</a>\
-        </p>\
-\
-        <p class="small" style="margin-top:14px">\
-          <span style="display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--text)">\
-            \uc0\u55357 \u56525  Location\
-          </span><br>\
-          <span style="color:var(--muted);font-weight:500">India</span>\
-        </p>\
-      </aside>\
-    </div>\
-  </section>\
-\
-</main>\
-\
-<footer>\
-  \'a9 <span id="year"></span> Digital Ads Expert \'95 <a href="legal.html">Legal</a>\
-  <div style="font-size:12px;color:#777;text-align:center;margin-top:20px;line-height:1.5;max-width:700px;margin-left:auto;margin-right:auto;">\
-    This site is not a part of the Facebook\'99\uc0\u65039  website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook\'99\u65039  in any way. Facebook\'99\u65039  is a trademark of Facebook Inc.\
-  </div>\
-</footer>\
-\
-<script>\
-  document.getElementById("year").textContent = new Date().getFullYear();\
-</script>\
-\
-</body>\
-</html>\
-}
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2236492630455659');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2236492630455659&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+  <noscript>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=2866581883717674&ev=PageView&noscript=1"
+    />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pankaj Sir | Premium Market Analysis</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --green: #00e7a0;
+      --green2: #13bd87;
+      --light-green: #70f3c7;
+      --gold: #f6d365;
+      --white: #ffffff;
+      --muted: #aebfba;
+      --dark: #03120e;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+
+      background:
+        radial-gradient(
+          circle at 50% 5%,
+          rgba(0, 231, 160, .16),
+          transparent 30%
+        ),
+        radial-gradient(
+          circle at 10% 90%,
+          rgba(246, 211, 101, .07),
+          transparent 28%
+        ),
+        linear-gradient(
+          145deg,
+          #010907,
+          #031812 55%,
+          #010b08
+        );
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 22px 14px;
+    }
+
+    /* =========================
+       MAIN CARD
+    ========================= */
+
+    .page {
+      width: 100%;
+      max-width: 440px;
+      min-height: 820px;
+
+      position: relative;
+      overflow: hidden;
+
+      padding: 30px 25px;
+
+      border-radius: 32px;
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(24, 69, 56, .88),
+          rgba(5, 24, 19, .97) 52%,
+          rgba(19, 66, 52, .9)
+        );
+
+      border: 1px solid rgba(80, 237, 188, .30);
+
+      box-shadow:
+        0 30px 80px rgba(0,0,0,.55),
+        0 0 50px rgba(0,231,160,.07),
+        inset 0 1px 0 rgba(255,255,255,.08);
+
+      text-align: center;
+    }
+
+    .page::before {
+      content: "";
+
+      position: absolute;
+
+      width: 320px;
+      height: 320px;
+
+      top: -170px;
+      left: -140px;
+
+      background: rgba(0, 255, 174, .09);
+
+      filter: blur(75px);
+
+      border-radius: 50%;
+
+      pointer-events: none;
+    }
+
+    .page::after {
+      content: "";
+
+      position: absolute;
+
+      width: 260px;
+      height: 260px;
+
+      right: -150px;
+      bottom: -130px;
+
+      background: rgba(0, 213, 150, .07);
+
+      filter: blur(70px);
+
+      border-radius: 50%;
+
+      pointer-events: none;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* =========================
+       TOP BADGE
+    ========================= */
+
+    .top-label {
+      display: inline-flex;
+
+      align-items: center;
+      gap: 7px;
+
+      padding: 7px 14px;
+
+      border-radius: 30px;
+
+      background: rgba(0, 231, 160, .07);
+
+      border: 1px solid rgba(76, 235, 187, .35);
+
+      color: #8bf7d2;
+
+      font-size: 10px;
+      font-weight: 700;
+
+      letter-spacing: .8px;
+      text-transform: uppercase;
+
+      margin-bottom: 22px;
+
+      box-shadow:
+        0 0 20px rgba(0,231,160,.06);
+    }
+
+    .top-label::before {
+      content: "";
+
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+
+      background: var(--green);
+
+      box-shadow:
+        0 0 10px var(--green);
+    }
+
+    /* =========================
+       PROFILE
+    ========================= */
+
+    .profile-wrapper {
+      width: 126px;
+      height: 126px;
+
+      margin: 0 auto 20px;
+
+      padding: 4px;
+
+      border-radius: 50%;
+
+      background:
+        conic-gradient(
+          from 0deg,
+          #00e7a0,
+          #baffdf,
+          #00b879,
+          #f6d365,
+          #00e7a0
+        );
+
+      box-shadow:
+        0 0 15px rgba(0,231,160,.7),
+        0 0 45px rgba(0,255,178,.25);
+
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+
+      0%, 100% {
+        box-shadow:
+          0 0 15px rgba(0,231,160,.65),
+          0 0 40px rgba(0,255,178,.20);
+      }
+
+      50% {
+        box-shadow:
+          0 0 22px rgba(0,231,160,.9),
+          0 0 55px rgba(0,255,178,.32);
+      }
+
+    }
+
+    .profile {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 50%;
+
+      object-fit: cover;
+
+      display: block;
+
+      border: 3px solid #062b21;
+
+      background: #061b15;
+    }
+
+    /* =========================
+       NAME
+    ========================= */
+
+    h1 {
+      font-size: 31px;
+
+      line-height: 1.15;
+
+      font-weight: 900;
+
+      letter-spacing: -1.3px;
+
+      margin-bottom: 9px;
+    }
+
+    h1 span {
+      background:
+        linear-gradient(
+          90deg,
+          #4de4b3,
+          #a1ffdc
+        );
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* =========================
+       PREMIUM LABEL
+    ========================= */
+
+    .premium-tag {
+      display: inline-block;
+
+      color: #f6d365;
+
+      font-size: 10px;
+      font-weight: 700;
+
+      letter-spacing: 1.3px;
+
+      text-transform: uppercase;
+
+      margin-bottom: 14px;
+    }
+
+    /* =========================
+       SUBTITLE
+    ========================= */
+
+    .subtitle {
+      max-width: 350px;
+
+      margin: 0 auto 17px;
+
+      color: #c9d8d4;
+
+      font-size: 13px;
+
+      line-height: 1.7;
+
+      font-weight: 400;
+    }
+
+    /* =========================
+       CTA
+       DIRECTLY BELOW SUBTITLE
+    ========================= */
+
+    .cta {
+      width: 100%;
+
+      min-height: 60px;
+
+      border-radius: 15px;
+
+      background:
+        linear-gradient(
+          100deg,
+          #08b97f,
+          #3be0a9,
+          #8af5d2
+        );
+
+      color: #02130e;
+
+      font-size: 14px;
+
+      font-weight: 900;
+
+      font-family: inherit;
+
+      cursor: pointer;
+
+      text-decoration: none;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      position: relative;
+
+      overflow: hidden;
+
+      box-shadow:
+        0 8px 30px rgba(0,224,157,.24),
+        inset 0 1px 0 rgba(255,255,255,.55);
+
+      transition: .25s ease;
+
+      margin-bottom: 13px;
+    }
+
+    .cta::before {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      left: -120%;
+
+      width: 70%;
+      height: 100%;
+
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          rgba(255,255,255,.42),
+          transparent
+        );
+
+      transform: skewX(-20deg);
+
+      animation: shine 3.2s infinite;
+    }
+
+    @keyframes shine {
+
+      0% {
+        left: -120%;
+      }
+
+      45%, 100% {
+        left: 150%;
+      }
+
+    }
+
+    .cta:hover {
+      transform: translateY(-3px) scale(1.01);
+
+      box-shadow:
+        0 12px 40px rgba(0,224,157,.38);
+    }
+
+    .cta:active {
+      transform: scale(.98);
+    }
+
+    /* =========================
+       TRUST LINE
+    ========================= */
+
+    .trust {
+      font-size: 10px;
+
+      color: #819891;
+
+      margin-bottom: 17px;
+    }
+
+    .trust span {
+      color: #4fe2b3;
+
+      font-weight: 700;
+    }
+
+    /* =========================
+       STATS
+    ========================= */
+
+    .stats {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 9px;
+
+      margin-bottom: 15px;
+    }
+
+    .stat {
+      min-height: 76px;
+
+      border-radius: 15px;
+
+      border: 1px solid rgba(76, 221, 177, .20);
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(20, 62, 50, .60),
+          rgba(2, 27, 21, .70)
+        );
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+
+      align-items: center;
+
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.04);
+    }
+
+    .stat strong {
+      color: #5de8ba;
+
+      font-size: 18px;
+
+      font-weight: 800;
+    }
+
+    .stat small {
+      color: #aebfba;
+
+      font-size: 10px;
+
+      margin-top: 2px;
+
+      font-weight: 500;
+    }
+
+    /* =========================
+       CATEGORIES
+    ========================= */
+
+    .categories {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 9px;
+
+      margin-bottom: 19px;
+    }
+
+    .category {
+      min-height: 49px;
+
+      border-radius: 13px;
+
+      border: 1px solid rgba(137, 168, 157, .16);
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(48, 67, 61, .52),
+          rgba(21, 35, 30, .62)
+        );
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      color: #f3f8f6;
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+      transition: .25s ease;
+    }
+
+    .category:hover {
+      transform: translateY(-3px);
+
+      border-color: rgba(0,231,160,.55);
+
+      background:
+        rgba(21, 82, 65, .50);
+
+      box-shadow:
+        0 8px 25px rgba(0,231,160,.08);
+    }
+
+    /* =========================
+       INFORMATION BOX
+    ========================= */
+
+    .info-box {
+      border: 1px solid rgba(80, 188, 151, .22);
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(45, 89, 75, .26),
+          rgba(8, 29, 23, .42)
+        );
+
+      border-radius: 14px;
+
+      padding: 13px 12px;
+
+      color: #cbd8d5;
+
+      font-size: 11px;
+
+      line-height: 1.8;
+
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.03);
+    }
+
+    .info-box div {
+      margin: 1px 0;
+    }
+
+    /* =========================
+       DISCLAIMER
+    ========================= */
+
+    .disclaimer {
+      margin-top: 13px;
+
+      color: #61766f;
+
+      font-size: 8.5px;
+
+      line-height: 1.5;
+    }
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 450px) {
+
+      body {
+        padding: 10px;
+
+        align-items: flex-start;
+      }
+
+      .page {
+        min-height: auto;
+
+        padding: 27px 17px;
+
+        border-radius: 27px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .profile-wrapper {
+        width: 116px;
+        height: 116px;
+      }
+
+    }
+
+    @media (max-width: 350px) {
+
+      .page {
+        padding: 24px 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .subtitle {
+        font-size: 11.5px;
+      }
+
+      .stat strong {
+        font-size: 15px;
+      }
+
+      .category {
+        font-size: 10.5px;
+      }
+
+      .cta {
+        font-size: 12px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="content">
+
+      <!-- Premium Badge -->
+      <div class="top-label">
+        SEBI Registered Research Analyst
+      </div>
+
+      <!-- Profile Image -->
+      <div class="profile-wrapper">
+
+        <img
+          src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/08/pankaj-image-2.jpg"
+          alt="Pankaj Sir"
+          class="profile"
+        >
+
+      </div>
+
+      <!-- Name -->
+      <h1>
+        Pankaj <span>Sir</span>
+      </h1>
+
+      <!-- Premium Label -->
+      <div class="premium-tag">
+        ✦ Premium Market Research
+      </div>
+
+      <!-- Subtitle -->
+      <p class="subtitle">
+        Fast & Accurate Market Analysis<br>
+        Nifty • Bank Nifty • Options Trading
+      </p>
+
+      <!-- CTA DIRECTLY BELOW NIFTY / BANK NIFTY / OPTIONS -->
+      <a
+        href="https://t.me/+zCu78OvYqWY4Y2E1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta"
+      >
+        🚀 &nbsp; JOIN TELEGRAM FREE
+      </a>
+
+      <!-- Trust -->
+      <div class="trust">
+        🔒 <span>100% Free Entry</span> • No Hidden Charges
+      </div>
+
+      <!-- Stats -->
+      <section class="stats">
+
+        <div class="stat">
+          <strong>60K+</strong>
+          <small>Members</small>
+        </div>
+
+        <div class="stat">
+          <strong>SEBI</strong>
+          <small>Registered</small>
+        </div>
+
+        <div class="stat">
+          <strong>FREE</strong>
+          <small>Join Now</small>
+        </div>
+
+      </section>
+
+      <!-- Categories -->
+      <section class="categories">
+
+        <div class="category">
+          📈 &nbsp; Nifty Calls
+        </div>
+
+        <div class="category">
+          🏦 &nbsp; Bank Nifty
+        </div>
+
+        <div class="category">
+          💹 &nbsp; Finnifty
+        </div>
+
+        <div class="category">
+          📊 &nbsp; Swing Trades
+        </div>
+
+      </section>
+
+      <!-- Information -->
+      <div class="info-box">
+
+        <div>
+          🔥 Daily Market Research & High Probability Trade Setups
+        </div>
+
+        <div>
+          ⚡ Bank Nifty • Nifty • Options Trading Signals
+        </div>
+
+        <div>
+          🚀 Trusted by 60,000+ Traders
+        </div>
+
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="disclaimer">
+        Market investments are subject to market risks.
+        Please do your own research before taking any trade.
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
